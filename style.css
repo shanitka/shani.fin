@@ -1,0 +1,163 @@
+*,*::before,*::after{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+ }
+body {
+    margin: 0;
+    height: 100vh;
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+    background-color: #f9f9f9 ;
+    line-height: 1;
+    background-repeat: no-repeat;
+  }
+.main-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.section-left {
+    width: 50%;
+    z-index: 1;
+    background-image: url(../img/backgroungF.png);
+    background-repeat: no-repeat;
+    background-position: 0%  0%;
+    background-size: 100%;
+}
+.title {
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 63%;
+    direction: ltr;
+}
+.menu {
+    height: 25vh;
+    padding-left: 20px;
+}
+.menu a{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    line-height: 60px; 
+}
+.first {
+    width: 50%;
+    text-align: right;
+    padding-right: 20px;
+}
+.section-right {
+    width: 50%;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    background-image: url(../img/backgroungB.png);
+    background-repeat: no-repeat;
+    background-position: 0%  50%;
+    background-size: 100%;
+}
+.new-title {
+    color: red;
+}
+.part1 {
+    height: 95vh;
+    overflow: auto;
+    padding-right: 20px;
+}
+a {
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    line-height: 30px; 
+}
+.texts-links {
+    font-size: 13px;
+}
+
+#selected{
+    color: red;
+}
+.AB a::first-letter{
+    color:red;
+}
+/* item pages css */
+/* ----------------------------- */
+
+.item-footer a {
+    width: 100px;
+    display: inline-block; 
+   }
+
+.item-content-wrapper{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 10%;
+    direction: rtl;
+}
+img{
+    width: 100%;
+    size: 100px
+}
+.item-ib{
+  font-size: 20px;
+  line-height: 1.3em;
+  vertical-align: top;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.item-title {
+    display: flex;
+}
+.item-title h2{
+    padding: 0;
+    padding-top: 40px;
+    font-size: 40px;
+    color: red;
+}
+
+.item-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.item-title-text {
+    font-size: 22px;
+}
+
+.item-image {
+    max-width: 350px;
+}
+
+.item-notes {
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+}
+
+.note{
+    box-sizing: border-box;
+    position: absolute;
+    left: 50px; top: 20px;
+    cursor: pointer;
+    max-width: 200px;
+}
+
+.note:hover{
+    z-index: 200;
+}
+.two{
+    transform: rotate(3deg) translate(2.5rem, -3.75rem);
+}
+
+.three{
+    transform: rotate(-3deg) translate(-1.25rem, 2rem);
+}
+
+.four{
+    transform: rotate(6deg) translate(2.5rem, 0);
+}
